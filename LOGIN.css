@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container {   
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgrey;
+    background-image: url(imagens/mondrone.png);
+}
+.content {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 960px;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    opacity: 1;
+}
+.content::before{
+    content:"";
+    position: absolute;
+    background-color: black;
+    width: 40%;
+    height: 99%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    left: 60; 
+    
+
+}
+
+.first-content{
+    display: flex;
+    padding-left: 3px;
+    border-color: white;
+}
+
+
+.title{
+    
+    font-size: 26px;
+    font-weight: bold;
+   
+    
+
+}
+.title-primary{
+    color: white;
+}
+.title-second {
+    color: black;
+}
+
+.description{
+    font-size: 14px;
+    font-weight: 300px;
+    color: white;
+        line-height: 30px;
+}
+
+.btn{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border-width: 0px;
+    margin-top: 1rem;
+}
+
+.btn-second{
+    background-color: #c00;
+    border: 1px solid lightgrey;
+    transition: background-color 1s;
+    text-align: center;
+    
+}
+.btn-second:hover{
+    background-color: black;
+    border: 1px lightgray;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+.first-content .second-column{
+    z-index: 12;
+
+
+}
+.first-column{
+    text-align: center;
+    width: 40%;
+    z-index: 10;
+    margin-top: 14%;
+
+}
+.second-column{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description-primary{
+    color: black;
+    font-size: 15px;
+
+}
+.description-second{
+    color: #808080;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+ 
+    
+}
+.form-input{
+    height: 45px;
+    border: none;
+    background-color: lightgrey;
+    width: 250px;
+
+
+}
+.label-input{
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+
+}
+
+.icon-modify{
+ color: black;
+ padding: 0 10px;
+
+}
+
+.password {
+    color: black;
+    font-size: 14px;
+    margin: 15px 0 ;
+    text-align: center;
+
+}
+
+.password::first-letter{
+    text-transform: capitalize;
+   
+}
+
+.first-column img{
+    height: 165px;
+    width: 210px;
+    position: absolute;
+    top: 10%;
+    left: 9%;
+
+}

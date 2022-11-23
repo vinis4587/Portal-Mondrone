@@ -1,0 +1,12 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+
+}
+
+.carousel-inner img{
+    width: 200px;
+    height: 600px;
+    
+}

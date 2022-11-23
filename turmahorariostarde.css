@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: black;
+    border: none;
+}
+
+body{
+    background-image: url(mondrone.png);
+    background-size: cover;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a, label {
+    font-size: .9rem;
+}
+
+#login-container {
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 20vh;
+    border-radius: 8px;
+    display: flex;
+    
+}
+#login-container h1{
+    margin-left: 334px;
+    font-size: 28px;
+    text-decoration: overline solid #c00;
+}
+
+#login-container h2{
+    margin-top: 44px;
+    margin-left: -180px;
+    text-transform: uppercase;
+    text-decoration: overline solid #c00;
+}
+
+.coluna1{
+    margin-top: 70px;
+    margin-left: -430px;
+}
+.coluna2{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.coluna3{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;        
+}
+
+label, input {
+    display: block;
+    width: 200px;
+    text-align: left;
+    float: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+
+input:focus {
+    border: 2px solid grey;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 35px;
+    color: white;
+    background-color: #c00;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: grey;
+    transition: .5s;
+
+}
+
+#validar {
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+}

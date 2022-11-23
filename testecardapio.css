@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: Helvetica;
+    color: black;
+    border: none;
+}
+
+body{
+    background-image: url(imagens/mondrone.png);
+    background-size: cover;
+}
+
+#container {
+
+    background-color: white;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 40px;
+    margin-top: 15vh;
+    border-radius: 8px;
+    height: 470px;
+}
+
+#linha-vertical {
+    height: 360px;
+    border-right: 4px solid #c00;
+    margin-top: 10vh;
+    padding: 2px ;
+    float: left;
+}
+
+.titulo{
+    text-align: center;
+    margin-left: -2vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration:overline #c00;
+
+}
+
+.segunda {
+    
+    margin-top: 11vh;
+    font-size: 25px;
+    margin-left: 35px;
+  
+}
+
+.terca {
+    
+    margin-top: 4vh;
+    margin-right: 500px;
+    font-size: 25px;
+    margin-left: 35px;
+    
+}
+.quarta {
+    margin-top: 4vh;
+    margin-right: 500px;
+    font-size: 25px;
+    margin-left: 35px;
+   
+}
+.quinta {
+    margin-top: 4vh;
+    margin-right: 500px;
+    font-size: 25px;
+    margin-left: 35px;
+    
+}
+.sexta {
+    margin-top: 4vh;
+    margin-right: 500px;
+    font-size: 25px;
+    margin-left: 35px;
+    
+}
+
+#container img {
+    height: 80px;
+    width: 105px;
+    float: right;
+    margin-top: 18.5vh;
+    font-size: 25px;
+}
+
+.botaovoltar {
+    align-items: center;
+}
+
+@media (max-width: 1300px) {
+
+    #container{
+        width: 800px ;
+        height: 480px;
+    }
+
+    .titulo{
+        margin-left: 40px;
+    }
+
+    .segunda{
+        margin-top: 75px;
+        margin-left: 40px;
+    }
+
+    .terca{
+        margin-top: 30px;
+        margin-left: 40px;
+        white-space: nowrap;
+    }
+
+    .quarta{
+        margin-top: 30px;
+        margin-left: 40px;
+        white-space: nowrap;
+    }
+    .quinta{
+        white-space: nowrap;
+        margin-left: 40px;
+    }
+
+    .sexta{
+        white-space: nowrap;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 900px){
+
+    #container{
+      width: 600px;
+      height: 500PX;
+    }
+
+}
+
+@media (max-width: 680px){
+
+    #container{
+      width: 500px;
+      height: 500PX;
+    }
+
+}
+
+@media (max-width: 570px){
+
+    #container{
+      width: 400px;
+      height: 500PX;
+    }
+
+    #linha-vertical{
+        height: 300px;
+        margin-top: 110px;
+    }
+
+    .segunda{
+        font-size: 20px;
+        margin-top: 100px;
+    }
+    .terca{
+        font-size: 20px;
+    }
+    .quarta{
+        font-size: 20px;
+    }
+    .quinta{
+        font-size: 20px;
+    }
+
+    .sexta{
+        font-size: 20px;
+    }
+
+}
